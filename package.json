@@ -1,0 +1,38 @@
+{
+  "name": "reactjs-first-step",
+  "version": "1.0.0",
+  "description": "Mi primer proyecto MERN",
+  "main": "index.js",
+  "scripts": {
+    "compile": "webpack",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avilasi/reactjs-first-step.git"
+  },
+  "keywords": [
+    "reactjs"
+  ],
+  "author": "Carlos Cova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avilasi/reactjs-first-step/issues"
+  },
+  "homepage": "https://github.com/avilasi/reactjs-first-step#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/polyfill": "^7.7.0",
+    "@babel/preset-env": "^7.7.5",
+    "@babel/preset-react": "^7.7.4",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
